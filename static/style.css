@@ -5,7 +5,8 @@
     
 }
 body{
-    background-color: chocolate;
+    background-image: url(images/BG4Notes.jpg);
+    background-size: cover;
 }
 button {
   background-color: #04AA6D; /* Green */
@@ -17,13 +18,19 @@ button {
   display: inline-block;
   font-size: 16px;
 }
-
+.note
+ {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+    }
 input[type=text]{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid red;
   border-bottom: 4px;
   border-color: blue;
   border-top: 4px;
